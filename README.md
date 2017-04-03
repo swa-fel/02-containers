@@ -1,3 +1,7 @@
+Console: https://console.cloud.google.com/
+
+Send your gmail address to: `jkarasek@redhat.com`
+
 ## Software Architecture 2017 - Linux containers
 This lab consist of several exercises in which students learn about linux containers. From basics like what is a linux container and how to get and run containers to more advanced features, such as how to apply different kinds of linux namespaces and cgroups. Students don't interact with underlying kernel features directly, but rather use the docker tool, that makes working with linux containers easier.
 
