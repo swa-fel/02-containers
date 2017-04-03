@@ -95,7 +95,7 @@ stress --cpu 4
 # on the host:
 systemd-cgtop -n 2 | grep docker
 ```
-* [CPU set](https://docs.docker.com/engine/reference/run/#cpuset-constrain#### t) and [CPU shares](https://docs.docker.com/engine/reference/run/#cpu-share-constraint)
+* [CPU set](https://docs.docker.com/engine/reference/run/#cpuset-constraint) and [CPU shares](https://docs.docker.com/engine/reference/run/#cpu-share-constraint)
 ```
 # start the two following containers
 docker run -it --rm --cpuset-cpus=1 --cpu-shares=1024 pschiffe/docker101-fedora bash
